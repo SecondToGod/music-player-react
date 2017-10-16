@@ -14,12 +14,11 @@
   "author": "JoeZhu",
   "license": "GPL-3.0",
   "dependencies": {
-    "jPlayer": "^2.9.2",
     "jplayer": "^2.9.2",
     "jquery": "^3.2.1",
     "pubsub-js": "^1.5.7",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "~15.0.0",
+    "react-dom": "~15.0.0",
     "react-hot-loader": "^3.0.0",
     "react-router": "^4.2.0"
   },

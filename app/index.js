@@ -10,7 +10,7 @@ render(
     document.getElementById('root')
 );
 
-if(module.hot){
+/* if(module.hot){
     module.hot.accept('./root',()=>{
         const NewRoot = require('./root').default;
         render(
@@ -20,4 +20,4 @@ if(module.hot){
             document.getElementById('root')
         );
     });
-}
+  }*/
