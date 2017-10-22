@@ -4,10 +4,9 @@ import MusicItem from '../components/musicItem';
 class Musiclist extends Component{
     render(){
         let musicList = this.props.musicList.map((item)=>{
-            if(item === this.props.currentMusicItem)   console.log( item.title );
             return(
-                <MusicItem key={item.id} title={item.title} 
-                artist={item.artist} 
+                <MusicItem key={item.id}
+                item={ item } 
                 focus={item === this.props.currentMusicItem ? true:false}/>
             )
         });
